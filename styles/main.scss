@@ -4,6 +4,10 @@
 
 @import './constants/color';
 @import './constants/typography';
+@import './constants/breakpoints';
+
+@import './mixins/text-style';
+@import './mixins/responsive';
 
 @import './layout/grids';
 
