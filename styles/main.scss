@@ -1,1 +1,9 @@
-p {color: yellow;}
+@import './base/fonts';
+
+p {
+  color: yellow;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
