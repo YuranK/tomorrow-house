@@ -2,6 +2,11 @@
 @import './base/normalize';
 @import './base/reset';
 
+@import './constants/color';
+@import './constants/typography';
+
+@import './layout/grids';
+
 p {
   color: yellow;
 }
