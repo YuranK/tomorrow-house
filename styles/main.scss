@@ -11,9 +11,11 @@
 @import './mixins/positions';
 @import './mixins/flexbox';
 
-@import './layout/grids';
-
 @import './modules/tags';
+@import './modules/avatars';
+@import './modules/star-ratings';
+
+@import './layout/grids';
 
 p {
   color: yellow;

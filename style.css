@@ -411,6 +411,48 @@ ol {
   list-style: none;
   padding-left: 0; }
 
+.tag-red, .tag-green, .tag-gray {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 4px;
+  font-weight: 700; }
+
+.tag-red {
+  color: #fff;
+  background-color: #f86d7d; }
+
+.tag-green {
+  color: #fff;
+  background-color: #22c58b; }
+
+.tag-gray {
+  color: #8c8d96;
+  background-color: #e0e2e7; }
+
+.avatar-24, .avatar-32 {
+  display: block;
+  overflow: hidden;
+  border-radius: 50%; }
+  .avatar-24 img, .avatar-32 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+
+.avatar-24 {
+  width: 24px;
+  height: 24px; }
+
+.avatar-32 {
+  width: 32px;
+  height: 32x; }
+
 /*
  * MOBILE (< 768px)---------------------------
  * fixture                          sm
@@ -487,30 +529,6 @@ ol {
         width: 1045px; }
       .container .col-lg-12 {
         width: 1140px; } }
-
-.tag-red, .tag-green, .tag-gray {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: -0.005em;
-  height: 20px;
-  padding: 0 6px;
-  border-radius: 4px;
-  font-weight: 700; }
-
-.tag-red {
-  color: #fff;
-  background-color: #f86d7d; }
-
-.tag-green {
-  color: #fff;
-  background-color: #22c58b; }
-
-.tag-gray {
-  color: #8c8d96;
-  background-color: #e0e2e7; }
 
 p {
   color: yellow; }
