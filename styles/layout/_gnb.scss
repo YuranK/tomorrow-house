@@ -11,7 +11,7 @@
     .button-group {
       @include flexbox(end);
     }
-    .gnb-icon-button.is-search {
+    .is-search {
       margin-right: 4px;
     }
   }
