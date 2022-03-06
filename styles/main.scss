@@ -1,11 +1,11 @@
+@import './constants/color';
+@import './constants/typography';
+@import './constants/breakpoints';
+
 @import './base/fonts';
 @import './base/normalize';
 @import './base/reset';
 @import './base/globals';
-
-@import './constants/color';
-@import './constants/typography';
-@import './constants/breakpoints';
 
 @import './mixins/text-style';
 @import './mixins/responsive';
@@ -22,3 +22,4 @@
 @import './modules/icons';
 
 @import './layout/grids';
+@import './layout/gnb';
